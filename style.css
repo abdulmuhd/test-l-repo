@@ -1,0 +1,68 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+li {
+	float: left;
+}
+
+.post {
+	margin: 10px;
+	padding: 4px;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 2px 4px;
+	color: gray;
+	font-weight: normal;
+}
+
+li:hover {
+	color: lime
+}
+
+li .active {
+	color: grey;
+}
+
+.head {
+	display: flex;
+	text-align: justify;
+	background: lightcyan;
+	padding: 8px;
+	background: wheat;
+	justify-content: space-between;
+	box-shadow: 1px blue;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 2px 4px;
+	color: darkgray
+}
+img{
+	border-radius: 25px
+}
+table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+th {
+	border: 1px solid black
+}
+
+td {
+	border: 1px solid black
+}
